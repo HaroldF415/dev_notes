@@ -18,3 +18,14 @@ React also uses a technique called "virtual DOM" to optimize the performance of 
 We will start with setting up the development environment and creating a new React application using Create React App, and then move on to learning about components, props, state, and other concepts in React. Feel free to ask questions along the way, and I'll be happy to help you with any issues you may encounter.
 
 Let's start by installing Node.js and create-react-app, it's a tool that makes it easy to create a new React application. This is the first step for starting to learn React.
+
+## Setting up a React Development Environment
+
+- Explain what Node.js is and why it is used
+- Explain what npm is and why it is used
+- Explain what create-react-app is and why it is used
+- Explain how to create a new React application using create-react-app
+- Explain how to run a React application in development mode
+- Explain how to build a React application for production
+
+Node.js is a JavaScript runtime environment that allows you to run JavaScript code outside of a browser. It's a very popular tool and it's used in many modern web applications. Node.js comes with a package manager called npm, which is used to install and manage dependencies for Node.js applications.
