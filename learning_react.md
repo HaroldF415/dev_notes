@@ -2,6 +2,13 @@
 
 ## Intro to React.js
 
+- Explain what React is and why it is used
+- Explain why React is a library and not a framework
+- Explain the difference between React and other frameworks
+- Explain the difference between React and other libraries
+- Explain the difference between React and other tools
+- Brief overview of the concepts and principles behind React, such as component-based architecture and virtual DOM
+
 React is a JavaScript library for building user interfaces. It was developed and is maintained by Facebook, and it's widely used in modern web development. React allows developers to build complex and dynamic user interfaces in a modular and reusable way. It's a very popular library and you can find it used in many websites and web applications such as Facebook, Instagram, and Netflix.
 
 React uses a concept called "components" to build the user interface. A component is a piece of code that represents a part of the user interface, such as a button, a form, or a card. Components can be reused multiple times throughout the application, and they can even be nested inside other components. This makes React applications easy to maintain and scale.
