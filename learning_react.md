@@ -29,3 +29,15 @@ Let's start by installing Node.js and create-react-app, it's a tool that makes i
 - Explain how to build a React application for production
 
 Node.js is a JavaScript runtime environment that allows you to run JavaScript code outside of a browser. It's a very popular tool and it's used in many modern web applications. Node.js comes with a package manager called npm, which is used to install and manage dependencies for Node.js applications.
+
+Create React App is a tool that makes it easy to create a new React application. It's a very popular tool and it's used in many modern web applications. Create React App comes with a package manager called npm, which is used to install and manage dependencies for React applications.
+
+Let's start by installing Node.js and create-react-app, it's a tool that makes it easy to create a new React application. This is the first step for starting to learn React.
+
+## What is the difference between React and other frameworks?
+
+- Explain the difference between React and other frameworks
+- Explain the difference between React and other libraries
+- Explain the difference between React and other tools
+
+React is a JavaScript library for building user interfaces. It was developed and is maintained by Facebook, and it's widely used in modern web development. React allows developers to build complex and dynamic user interfaces in a modular and reusable way. It's a very popular library and you can find it used in many websites and web applications such as Facebook, Instagram, and Netflix.
