@@ -104,3 +104,9 @@ As explained above the git command:
 - The `git rebase` command is used to integrate changes from one branch to another branch.
 
 `git merge` and `git rebase` are two different ways of integrating changes from one branch to another branch. While `git merge` creates a new commit, `git rebase` re-writes the project history by creating brand new commits for each commit in the original branch. Git re-writes the commit history to make it look like the changes were always made directly to the target branch. This means that instead a merge commit being created for us, we will have a linear commit history.
+
+`git rebase` is a very powerful tool, but it can also be dangerous if used incorrectly. It is important to understand the difference between `git merge` and `git rebase` before using them. `git rebase` allows you to incorporate changes from multiple branches into a single branch, and it is often used to clean up a project's history before merging it into a main branch. As opposed to `git merge`, which can only merge changes from one branch to the current branch in which the command is run.
+
+Furthermore `git merge` preserves the original branch history, while `git rebase` re-writes the project history by creating brand new commits for each commit in the original branch.
+
+Let's take a look at the following diagram:
