@@ -41,3 +41,23 @@ Let's start by installing Node.js and create-react-app, it's a tool that makes i
 - Explain the difference between React and other tools
 
 React is a JavaScript library for building user interfaces. It was developed and is maintained by Facebook, and it's widely used in modern web development. React allows developers to build complex and dynamic user interfaces in a modular and reusable way. It's a very popular library and you can find it used in many websites and web applications such as Facebook, Instagram, and Netflix.
+
+## What is Angular.js?
+
+- Explain what Angular.js is and why it is used
+- Explain why Angular.js is a framework and not a library
+- Explain the difference between Angular.js and other frameworks
+- Explain the difference between Angular.js and other libraries
+- Explain the difference between Angular.js and other tools
+
+Angular.js is a JavaScript framework for building user interfaces. It was developed and is maintained by Google, and it's widely used in modern web development. Angular.js allows developers to build complex and dynamic user interfaces in a modular and reusable way. It's a very popular framework and you can find it used in many websites and web applications such as Google Docs, Google Sheets, and Google Slides.
+
+Angular.js uses a concept called "components" to build the user interface. A component is a piece of code that represents a part of the user interface, such as a button, a form, or a card. Components can be reused multiple times throughout the application, and they can even be nested inside other components. This makes Angular.js applications easy to maintain and scale.
+
+Angular.js also uses a technique called "virtual DOM" to optimize the performance of updates and changes in the user interface. The virtual DOM is a lightweight representation of the actual DOM (Document Object Model) and Angular.js uses it to determine the minimal number of changes needed to be made to the UI, this makes the updates faster and more efficient.
+
+## React vs Angular.js
+
+- Explain the difference between React and Angular.js
+
+React is a JavaScript library for building user interfaces. It was developed and is maintained by Facebook, and it's widely used in modern web development. React allows developers to build complex and dynamic user interfaces in a modular and reusable way. It's a very popular library and you can find it used in many websites and web applications such as Facebook, Instagram, and Netflix.
