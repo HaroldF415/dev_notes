@@ -61,3 +61,28 @@ Angular.js also uses a technique called "virtual DOM" to optimize the performanc
 - Explain the difference between React and Angular.js
 
 React is a JavaScript library for building user interfaces. It was developed and is maintained by Facebook, and it's widely used in modern web development. React allows developers to build complex and dynamic user interfaces in a modular and reusable way. It's a very popular library and you can find it used in many websites and web applications such as Facebook, Instagram, and Netflix.
+
+The main difference between React and Angular.js is that React is a library and Angular.js is a framework.
+
+## What is a framework?
+
+A framework is a set of pre-written, reusable code that provides a structure for developing software applications. It provides a foundation for developers to build applications faster and more efficiently. Frameworks are usually used to build web applications, but they can also be used to build mobile applications, desktop applications, and even games.
+
+A framework typically includes a set of libraries, templates, and tools that developers can use to create applications without having to start from scratch. These pre-built components can provide a wide range of functionality, from database management and user authentication to user interface design and data visualization.
+
+The purpose of a programming framework is to provide a standard way of developing applications, reducing the amount of repetitive work required for basic tasks,and allowing developers to focus on the more complex logic and functionality specific to their application.
+
+Some popular frameworks include:
+
+- Angular.js
+- Vue.js
+- Django
+- Ruby on Rails
+- Laravel
+- .NET Framework
+
+Each framework has its own strengths and weaknesses, and it's important to choose the right framework for your project. For example, if you're building a web application that requires a lot of user interaction, you may want to use a framework that provides a lot of built-in functionality for user interface design and data visualization.
+
+## What is a library?
+
+A library is a collection of tools and libraries that allow developers to build applications faster and more efficiently. Libraries are usually used to build web applications, but they can also be used to build mobile applications, desktop applications, and even games.
