@@ -91,3 +91,16 @@ This shows the 'main' branch after the merging with the 'merge_testing' branch:
 <br/>
 
 The commit `G` is the commit that was created when we merged the `merge_testing` branch into the `main` branch.
+
+<br/>
+
+At this point the question becomes what is the difference between `git merge` and `git rebase`?
+
+## `Merging` vs `Rebasing` in Git - [Atlassian](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
+As explained above the git command:
+
+- The `git merge` is used to merge changes from one branch to another branch.
+- The `git rebase` command is used to integrate changes from one branch to another branch.
+
+`git merge` and `git rebase` are two different ways of integrating changes from one branch to another branch. While `git merge` creates a new commit, `git rebase` re-writes the project history by creating brand new commits for each commit in the original branch. Git re-writes the commit history to make it look like the changes were always made directly to the target branch. This means that instead a merge commit being created for us, we will have a linear commit history.
