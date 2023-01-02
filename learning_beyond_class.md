@@ -112,3 +112,10 @@ Furthermore `git merge` preserves the original branch history, while `git rebase
 Let's take a look at the following diagram:
 
 ![git-sim_status_main](./assets/git-sim_status_main.jpg)
+
+<br/>
+<br/>
+
+# Then we run the command `git rebase merge_testing` on the `main` branch.
+
+![git-sim_rebase_merge_testing](./assets/git-sim_rebase_merge_testing.jpg)
