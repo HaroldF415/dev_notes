@@ -40,4 +40,10 @@ While looking up the solution for the problem above I encountered the term `git 
 
 The `git rebase` is one out of two git utilities/commands that are used for integrating/changing the history of a git repository or merging changes from one branch to another branch, If what I understood is to be believed.
 
-I think before even understanding this concept of `git rebase`, it is important to understand the concept of `git merge`.
+I think before even understanding this concept of `git rebase`, I believe it is important to understand the concept of `git merge` first.
+
+The documentation for `git merge` is [here](https://git-scm.com/docs/git-merge).
+
+This command allows us to combine or `merge` changes from different branches. When we merge two branches, `git` creates a new commit that includes changes from both branches.
+
+I think a good example to understand what `git merge` does is to look at the following diagram:
