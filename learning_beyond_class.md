@@ -47,3 +47,47 @@ The documentation for `git merge` is [here](https://git-scm.com/docs/git-merge).
 This command allows us to combine or `merge` changes from different branches. When we merge two branches, `git` creates a new commit that includes changes from both branches.
 
 I think a good example to understand what `git merge` does is to look at the following diagram:
+
+<br/>
+
+# `git merge merge_testing`
+
+![git-sim merge](./assets/git-sim-merge.jpg)
+
+<br/>
+
+The diagram above depicts the command `git merge merge_testing` being run on the `main` branch. The `main` branch is the current branch, and the `merge_testing` branch is the branch that we want to merge into the `main` branch.
+
+<br/>
+
+Git will then compare the changes in the two branches and try to merge them together. If there are no conflicts, then `git` will create a new commit that includes the changes from both branches. But if there are conflicts between the two branches, then `git` will not be able to merge the two branches together. Instead it will stop the merge process and ask us to resolve the conflicts manually.
+
+<br/>
+
+I'm using vsCode as my code editor, and it has a built in git tool that allows us to see the changes between the two branches. The tool is called `Source Control` and it is located on the left side of the screen. When a merge conflict occurs, the tool will show us the conflicts in the file at which point we can then resolve the conflicts manually.
+
+[Here](https://stackoverflow.com/questions/38216541/visual-studio-code-how-to-resolve-merge-conflicts-with-git) is a link to a stackoverflow post that explains how to resolve merge conflicts in VSCode.
+
+<br/>
+
+Let's use graphical examples:
+
+This shows the 'main' branch before the merging with the 'merge_testing' branch:
+
+```js
+       A --- B --- C         (main)
+            \
+             D --- E --- F  (merge_testing)
+```
+
+This shows the 'main' branch after the merging with the 'merge_testing' branch:
+
+```js
+       A --- B --- C --------- G  (main)
+            \                 /
+             D --- E --- F    (merge_testing)
+```
+
+<br/>
+
+The commit `G` is the commit that was created when we merged the `merge_testing` branch into the `main` branch.
