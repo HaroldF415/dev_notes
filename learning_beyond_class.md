@@ -110,3 +110,5 @@ As explained above the git command:
 Furthermore `git merge` preserves the original branch history, while `git rebase` re-writes the project history by creating brand new commits for each commit in the original branch.
 
 Let's take a look at the following diagram:
+
+![git-sim_status_main](./assets/git-sim_status_main.jpg)
