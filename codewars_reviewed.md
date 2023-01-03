@@ -167,3 +167,9 @@ rgb(148, 0, 211); // returns 9400D3
 - Functions: You can use functions to group together a set of statements to perform a task or calculate a value. You can also use functions to reuse code: Define the code once, and use it many times.
 
 - Error Handling: You can use `try` and `catch` statements to handle errors. You can use `throw` statements to create custom errors.
+
+## Research
+
+### What is RGB?
+
+`RGB` stands for `Red`, `Green`, and `Blue`. `RGB` is a color model that is used to create colors on a computer screen. Each color is represented by a number between 0 and 255. The higher the number, the brighter the color.The `RGB` color model is an additive color model in which `red`, `green`, and `blue` light are added together in various ways to reproduce a broad array of colors.
