@@ -191,3 +191,37 @@ function toHex(num) {
   return Math.max(0, Math.min(255, num)).toString(16).padStart(2, "0");
 }
 ```
+
+```js
+function rgb(r, g, b) {
+  let hexi = "";
+
+  const rgbArr = [r, g, b];
+
+  const newRGB = rgbArr.map((value) => {
+    if (value < 0) {
+      value = 0;
+    }
+
+    if (value > 255) {
+      value = 255;
+    }
+
+    return value;
+  });
+
+  if (newRGB.every((value) => value === 0)) {
+    return `000000`;
+  } else {
+    const newMap = newRGB.map((value) => {
+      value = value.toString(16).toUpperCase();
+      if (value.length === 1) {
+        value = `0${value}`;
+      }
+      return value;
+    });
+
+    return newMap.join("");
+  }
+}
+```
