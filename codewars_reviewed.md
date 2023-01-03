@@ -173,3 +173,11 @@ rgb(148, 0, 211); // returns 9400D3
 ### What is RGB?
 
 `RGB` stands for `Red`, `Green`, and `Blue`. `RGB` is a color model that is used to create colors on a computer screen. Each color is represented by a number between 0 and 255. The higher the number, the brighter the color.The `RGB` color model is an additive color model in which `red`, `green`, and `blue` light are added together in various ways to reproduce a broad array of colors.
+
+### What is Hexadecimal?
+
+Hexadecimal is a base-16 number system that uses 16 unique symbols. The symbols `0-9` are used to represent values `0-9` and the letters `A-F` are used to represent values `10-15`. Hexadecimal is often used to represent colors on the web. Each color is represented by a 6-digit hexadecimal number. The first two digits represent the amount of red, the second two digits represent the amount of green, and the last two digits represent the amount of blue.
+
+### How to turn RGB into Hexadecimal?
+
+To turn RGB into Hexadecimal, we need to convert each number into a hexadecimal number. We can do this by using the `toString()` method to convert each number into a string and then using the `toUpperCase()` method to convert the string into all uppercase letters.
