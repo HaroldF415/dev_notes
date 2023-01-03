@@ -181,3 +181,13 @@ Hexadecimal is a base-16 number system that uses 16 unique symbols. The symbols 
 ### How to turn RGB into Hexadecimal?
 
 To turn RGB into Hexadecimal, we need to convert each number into a hexadecimal number. We can do this by using the `toString()` method to convert each number into a string and then using the `toUpperCase()` method to convert the string into all uppercase letters.
+
+```js
+function rgb(r, g, b) {
+  return `${toHex(r)}${toHex(g)}${toHex(b)}`.toUpperCase();
+}
+
+function toHex(num) {
+  return Math.max(0, Math.min(255, num)).toString(16).padStart(2, "0");
+}
+```
