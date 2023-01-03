@@ -35,3 +35,19 @@ const digitalRoot = (n) => {
   // Your code here
 };
 ```
+
+- Then we will check if `n` has only one digit by comparing it against `10` in an if statement.
+  - If `n` is less than `10`, then we will return `n` because it is already a single digit.
+  - If `n` is greater than or equal to `10`, then we will continue to reduce the sum of the digits until we get a single digit.
+
+```js
+const digitalRoot = (n) => {
+  if (n < 10) {
+    return n;
+  }
+};
+```
+
+### Why do we check if `n` is less than `10`?
+
+Checking against `10` is not only a good way to find out that `n` is a single digit but because the digital root of any single-digit number is itself. Think of this as a `guard clause` to prevent the function from continuing to run if `n` is a single digit.
