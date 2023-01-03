@@ -24,3 +24,14 @@ In this kata, you must create a digital root function. A digital root is the rec
 
 - Functions
   - Defining a function to encapsulate the logic of adding the digits and reducing them to a single digit
+
+## Breakdown
+
+- Let's define the function name for this problem. We'll call it digitalRoot.
+  - This function will take in one parameter, `n`, which will be an integer as a parameter.
+
+```js
+const digitalRoot = (n) => {
+  // Your code here
+};
+```
