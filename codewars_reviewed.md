@@ -90,3 +90,23 @@ const digitalRoot = (n) => {
   }
 };
 ```
+
+Once we have hit this point in our function we can use either a `for` loop or a `while` loop to iterate over the digits of `n` and add them to `sumOfDigits`. We will use a `for` loop in this example.
+
+- Inside the forLoop though we need to iterate through each character of `strN` and add it to `sumOfDigits`.
+  - We can do this by using the `parseInt()` function to convert each character of `strN` into an integer and then add it to `sumOfDigits`.
+
+```js
+const digitalRoot = (n) => {
+  if (n < 10) {
+    return n;
+  } else {
+    let sumOfDigits = 0;
+    let strN = n.toString();
+
+    for (let i = 0; i < strN.length; i++) {
+      sumOfDigits += parseInt(strN[i]);
+    }
+  }
+};
+```
