@@ -153,3 +153,17 @@ rgb(255, 255, 300); // returns FFFFFF
 rgb(0, 0, 0); // returns 000000
 rgb(148, 0, 211); // returns 9400D3
 ```
+
+## Programming Concepts To Review Before Attempting This Problem
+
+- Variables and Data Types: Have a solid understanding of how to declare and use variables to store data, and knowing the different data types available in JavaScript.
+
+- Arithmetic Operators: These come as no surprise. Operators like `+`, `-`, `*`, `/`, `%`, `++`, and `--` are used to perform arithmetic operations on numbers.
+
+- Conditional Statements: These are used to perform different actions based on different conditions. You can use `if`, `else if`, and `else` statements to perform different actions based on different conditions.
+
+- String Manipulation: You can use the `toString()` method to convert a number into a string. You can also use the `toUpperCase()` method to convert a string into all uppercase letters.
+
+- Functions: You can use functions to group together a set of statements to perform a task or calculate a value. You can also use functions to reuse code: Define the code once, and use it many times.
+
+- Error Handling: You can use `try` and `catch` statements to handle errors. You can use `throw` statements to create custom errors.
