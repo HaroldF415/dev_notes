@@ -1,4 +1,4 @@
-## [Sum of Digits / Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00)
+# [Sum of Digits / Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00)
 
 ### Problem
 
@@ -136,3 +136,20 @@ const digitalRoot = (n) => {
 | Handle special cases                   | If `n` has only one digit, return `n` as its digital root.                                                                                                                                                                                           | Guard Clause                                                              |
 | Extract the digits of `n`              | We can do this by converting `n` into a string and then iterating over each character of the string with a forLoop and converting each character back to `int` with the `parseInt()` method.                                                         | String Manipulation                                                       |
 | Call the digital root function         | If the `sum` of the digits have more than one digit, then we can call on the digital root function recursively with the sum as the new input.                                                                                                        | Recursion                                                                 |
+
+# [RBG to Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001)
+
+### Problem
+
+The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.
+
+Note: Your answer should always be 6 characters long, the shorthand with 3 will not work here.
+
+The following are examples of expected output values:
+
+```js
+rgb(255, 255, 255); // returns FFFFFF
+rgb(255, 255, 300); // returns FFFFFF
+rgb(0, 0, 0); // returns 000000
+rgb(148, 0, 211); // returns 9400D3
+```
