@@ -110,3 +110,22 @@ const digitalRoot = (n) => {
   }
 };
 ```
+
+We had reached the end of our logic. At this point we have reduced the sum of the digits of `n` until we get a single digit. We can now return `sumOfDigits` as a recursive call to our function.
+
+```js
+const digitalRoot = (n) => {
+  if (n < 10) {
+    return n;
+  } else {
+    let sumOfDigits = 0;
+    let strN = n.toString();
+
+    for (let i = 0; i < strN.length; i++) {
+      sumOfDigits += parseInt(strN[i]);
+    }
+
+    return digitalRoot(sumOfDigits);
+  }
+};
+```
