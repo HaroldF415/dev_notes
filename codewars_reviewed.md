@@ -225,5 +225,3 @@ function rgb(r, g, b) {
   }
 }
 ```
-
-Testing
