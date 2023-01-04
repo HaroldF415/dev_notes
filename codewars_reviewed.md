@@ -225,3 +225,7 @@ function rgb(r, g, b) {
   }
 }
 ```
+
+### Resources
+
+[How To Convert RGB to Hexadecimal](https://appkong.com/tools/hex-to-rgb/)
