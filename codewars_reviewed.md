@@ -137,6 +137,9 @@ const digitalRoot = (n) => {
 | Extract the digits of `n`              | We can do this by converting `n` into a string and then iterating over each character of the string with a forLoop and converting each character back to `int` with the `parseInt()` method.                                                         | String Manipulation                                                       |
 | Call the digital root function         | If the `sum` of the digits have more than one digit, then we can call on the digital root function recursively with the sum as the new input.                                                                                                        | Recursion                                                                 |
 
+<br>
+<br>
+
 # [RBG to Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001)
 
 ### Problem
@@ -229,3 +232,201 @@ function rgb(r, g, b) {
 ### Resources
 
 [How To Convert RGB to Hexadecimal](https://appkong.com/tools/hex-to-rgb/)
+
+<br>
+<br>
+
+# ParseInt Reloaded
+
+### Problem
+
+In this kata we want to convert a string into an integer. The strings simply represent the numbers in words.
+
+Examples:
+
+```js
+"one" => 1
+"twenty" => 20
+"two hundred forty-six" => 246
+"seven hundred eighty-three thousand nine hundred and nineteen" => 783919
+```
+
+## Programming Concepts To Review Before Attempting This Problem
+
+- String Manipulation: We can assume that the input is a string. A string that represents a number in words, for this we must be able to familiar with string manipulation.
+
+- Control Structures: Control structures like loops and conditional statements are essential when we are dealing with problems like these. We can use certain types of loops to iterate over an array that can work with our logic and help us solve the problem.
+
+- Object and Array: We also need to use objects and arrays to find a way to store the values of the string and use them to sort of map them to numbers needed.
+
+- Functions: We can use functions to group together a set of statements to perform a task or calculate a value. You can also use functions to reuse code: Define the code once, and use it many times.
+
+- Error Handling:
+
+- Math Operations:
+
+- Regular Expressions:
+
+## Breaking down the problem
+
+Split the string into an array of words
+
+```js
+const words = str.split(" ");
+```
+
+Create an object that maps the words to numbers
+
+```js
+const wordObject = {
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5,
+  six: 6,
+  seven: 7,
+  eight: 8,
+  nine: 9,
+  ten: 10,
+};
+```
+
+Create an array that will represent the numerical value of the different units of the number.
+
+```js
+const numbers = [1, 10, 100, 1000, 10000, 100000, 1000000];
+```
+
+Loop through the array of words and convert each word to its corresponding numerical value.
+
+```js
+const newWords = words.map((word) => {
+  return wordObject[word];
+});
+```
+
+Keep track of the current unit being used to convert the word to a number.
+
+```js
+let currentUnit = 0;
+```
+
+Loop through the array of numbers and multiply each number by the current unit.
+
+```js
+const newNumbers = newWords.map((number) => {
+  if (number === 1000 || number === 1000000) {
+    currentUnit++;
+  }
+  return number * numbers[currentUnit];
+});
+```
+
+<br>
+<br>
+
+# Longest Consecutive Repetition
+
+[Kata Link - 6kyu](https://www.codewars.com/kata/586d6cefbcc21eed7a001155)
+
+### Problem
+
+For a given string s find the character c (or C) with longest consecutive repetition and return:
+[ c, L]
+
+where l (or L) is the length of the repetition. If there are two or more characters with the same l return the first in order of appearance.
+
+For empty string return:
+["", 0]
+
+In JavaScript: If you use Array.sort in your solution, you might experience issues with the random tests as Array.sort is not stable in the Node.js version used by CodeWars. This is not a kata issue.
+
+## Let's write some Pseudocode
+
+```js
+const longestConsecutiveRepetition(string){
+
+  // if the input string is empty, return ["", 0]
+
+  // initialize two variables
+    // one to keep track of the longest consecutive character
+      // set it to the first character of the string
+
+    // one to keep track of the longest consecutive character's count
+     // set it to 1
+
+  // initialize two more variables
+    // one to keep track of the current consecutive character
+      // set it to the first character of the string
+
+    // one to keep track of the current consecutive character's count
+     // set it to 1
+
+  // iterate through the string, start from the second element
+
+    // write an if condition to check if the current character is the same as the current consecutive character
+      // if it is, increment the current consecutive character's count by 1
+
+      // if it is not, check if the current consecutive character's count is greater than the longest consecutive character's count
+        // if it is, update the longest consecutive character and its count
+
+      // reset the current consecutive character to the current character
+      // reset the current consecutive character's count to 1
+
+  // check to see if the last consecutive character's count is greater than the longest consecutive character's count
+    // if it is, update the longest consecutive character and its count
+      // set the longest consecutive character to the current consecutive character
+      // set the longest consecutive character's count to the current consecutive character's count
+
+  // return the longest consecutive character and its count
+}
+```
+
+## Step 1: Understanding the problem
+
+We need to look into a string and find the character that repeats the most times. After finding said character, I must return an array that contains that character and the number of times it repeats itself. At index[0] and index[1] respectively.
+
+## Step 2: Plan of attack
+
+In order to solve this problem, I must:
+
+- Iterate through the string
+- Keep track of the current character and the current character's count
+- Keep track of the longest consecutive character and the longest consecutive character's count
+- Compare the current character's count to the longest consecutive character's count
+- If the current character's count is greater than the longest consecutive character's count, update the longest consecutive character and its count
+- Return the longest consecutive character and its count
+
+<br>
+<br>
+
+# Permutation Position
+
+[Kata Link 6kyu](https://www.codewars.com/kata/57630df805fea67b290009a3/train/javascript)
+
+### Problem
+
+In this Kata you will have to permutate through a string of lowercase letters, each permutation will start at `a` and you must calculate how many iterations it takes to reach the current permutation.
+
+## Examples
+
+```bash
+input: 'a'
+result: 1
+
+input: 'c'
+result: 3
+
+input: 'z'
+result: 26
+
+input: 'foo'
+result: 3759
+
+input: 'aba'
+result: 27
+
+input: 'abb'
+result: 28
+```
