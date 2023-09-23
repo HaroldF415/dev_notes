@@ -44,4 +44,10 @@ Probabilistic Analysis and Randomized Algorithms.
 
 Probabilistic Analysis: allows researchers and practioners to account for uncertainty and randomness in their analysis, leading to more realistic assessments of algorithm or system performance in the real-world.
 
-Probability Distribution:
+Probability Distribution: is a mathematical function or description that defines the likelihood of different outcomes or valies in a random experiment, process, or system. It provides a way to represent and quantify the uncertainty associated with various possible outcomes.
+
+Randomized Algorithm: an algorithm whose behavior is determined not only by its input but by the values produced by a random-number generator.
+
+Randomized algorithms can be used to enforce or sample from a desired probability distribution for inputs in various computational and statistical tasks. This approach is useful when we need to generate random samples that follow a specific distribution. [rules or probabilities]
+
+Thereby ensuring that no particular input always causes poor performance.
