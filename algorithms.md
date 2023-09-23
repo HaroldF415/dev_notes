@@ -51,3 +51,13 @@ Randomized Algorithm: an algorithm whose behavior is determined not only by its 
 Randomized algorithms can be used to enforce or sample from a desired probability distribution for inputs in various computational and statistical tasks. This approach is useful when we need to generate random samples that follow a specific distribution. [rules or probabilities]
 
 Thereby ensuring that no particular input always causes poor performance.
+
+"An algorithm is a sequence of well-defined computational steps that transform the input into an output."
+"An algorithm is a tool to solve a well-specified computational problem."
+"An algorithm describes a specific computational procedure for achieving that input/output relationship."
+
+An instance of a problem consists of the input ( satisfying whatever constraints are imposed in the problem statement ) needed to compute a solution to the problem.
+
+Translation....
+
+When dealing with a problem, you have to start with a specific situation or example [ the instance ], and this situation includes certain information [ the input ] that followes the rules set by the problem [ constraints ]. This input is crucial because it's what you use to figure out the answer or solution to the problem.
