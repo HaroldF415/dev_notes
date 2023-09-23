@@ -29,3 +29,11 @@ As I begin this journey again, I will set some goals for myself, something that 
 17. Personal Projects
 
 Today, I decided to focus on the fundamentals of algorithms. I believe that it is my weakest skill as a software engineer. While I can come up with solutions quickly when I write code, I often find myself asking why I solved a problem in a particular way after completing the task. I believe that with a solid foundation in algorithms, I can finally stop second-guessing myself and have confidence in the solutions I provide.
+
+Continuing from my study session last night, I will begin by reviewing the information I absorbed. Most importantly, the first few pages of the textbook provided me with insights into the vast knowledge it will impart. Two key takeaways from my previous study session are the notions that algorithms should be regarded as a form of technology. This is because they play a pivotal role in driving innovation and can confer a competitive advantage in the real world.
+
+The term "innovation" is significant here, as advancements and optimizations in algorithm design often pave the way for breakthroughs in various technology fields, such as artificial intelligence, data science, cryptography, and more. These innovations, in part, fuel and propel technological progress forward.
+
+The second takeaway is that there are computational problems in computer science that are both in the complexity class NP [ Nondeterministic Polynomial-Time ] and are believed to be among the most challenging problems in terms of finding efficient algorithms to solve them. One line from that textbook that stood out to me was:
+
+"The set of NP-complete problems has the remarkable property that if an efficient algorithm exists for any one of them, then efficient algorithms exist for all of them."
