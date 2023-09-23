@@ -73,3 +73,24 @@ In public-key cryptography and digital signatures, the choice of algorithms is e
 Linear programming is used to allocate scarce resources in the most beneficial way. Linear programming helps organizations and decision-makers make efficient devisdions when facedf with limited resources and multiple competing objectives.
 
 Dynamic Programming: is a powerful technique used in computer science and mathematics for solving complex problems by breaking them down in simpler overlapping subproblems and solving each subproblem only once. It is especially useful for optimization problems and problems that exhibit optimal substructure, which means that the solution to the overall problem can be constructed from solutions to small subproblems. [ Breaking a large problem and breaking it down into smaller solveable pieces. You only solve each piece of a problem once and keep a record of it so the same work is not repeated. We gather all the solutions together to solve the entire problem.]
+
+## Data Structures
+
+"A data structure is a way to store an organize data in order to facilitate access and modifications. No single data structure works well for all purposes, and so it is important to know the strengths and limitations of several of them."
+
+The purpose of the book is to teach us techniques of algorithm design and analysis.
+The book's measure of efficiency is "speed".
+
+## 1.1 Exercises
+
+### 1.1-1
+
+Give a real-world example that requires sorting or a real-world example that requires computing a convex hull.
+
+A real-world example that I can think of that requires sorting is sports championships. Consider national sports competition where teams from various cities and states compete. Sorting plays a crucial role in determining the overall ranking of teams.
+
+First, within each city, sorting helps identify the best team based on their performance in local matches. This ensures that a city's representative is indeed the strongest team from that area.
+
+Next, at the state level, sorting is applied once again to determine the top team from each state. This ensures that the sate is sending its most competitive team to the national competition.
+
+Finally, when all the city and state champions gather for the nation championship, sorting is once again employed to create a ranking of all participating teams. This ranking helps identify the strongest team in the entire nation, considering their performance at the city, state, and national levels.
