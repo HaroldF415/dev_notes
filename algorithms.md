@@ -94,3 +94,11 @@ First, within each city, sorting helps identify the best team based on their per
 Next, at the state level, sorting is applied once again to determine the top team from each state. This ensures that the sate is sending its most competitive team to the national competition.
 
 Finally, when all the city and state champions gather for the nation championship, sorting is once again employed to create a ranking of all participating teams. This ranking helps identify the strongest team in the entire nation, considering their performance at the city, state, and national levels.
+
+### 1.1-2
+
+Other than speed, what other measures of efficiency might one use in a real-world setting?
+
+I believe that other than speed a software engineer must consider optimizing the utilization of resources such as memory, energy and network bandwith.
+
+### 1.1-3
