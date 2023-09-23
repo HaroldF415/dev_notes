@@ -1,4 +1,4 @@
-# Algorithms
+# Algorithms and Data Stuctures
 
 There is a book I bought years ago when I was first starting to learn COMP SCI. Eveytime I would start it I would give up before reaching the 2nd chapter. This time around I will do better.
 
@@ -7,7 +7,9 @@ _Book_
 Name: Introduction to Algorithms [3rd Edition]
 Authors: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
 
-## Foundations
+# I - Foundations
+
+## Algorithms
 
 ### "We should consider algorithms as a technology."
 
@@ -102,3 +104,24 @@ Other than speed, what other measures of efficiency might one use in a real-worl
 I believe that other than speed a software engineer must consider optimizing the utilization of resources such as memory, energy and network bandwith.
 
 ### 1.1-3
+
+Select a data structure that you have seen previously, and discuss its strengths and limitations.
+
+One data structure that I'm familiar with is an array.
+
+### 1.1-4
+
+How are the shortest-path and traveling-salesman problems given above similar? How are they different?
+
+### 1.1-5
+
+Come up with a real-world problem in which only the best solution will do. Then come up with one in which a solution that is "approximately" the best is good enough.
+
+---
+
+## 1.2 Algorithms as a technology
+
+We should always consider to implement a solution to be within the bounds of good engineering practice.
+"An implementation should be well designed and documented."
+
+Algorithms that are efficient in terms of time or space will help use resources like computing time and space in memory more wisely.
