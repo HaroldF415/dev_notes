@@ -405,6 +405,10 @@ In order to solve this problem, I must:
 
 [Kata Link 6kyu](https://www.codewars.com/kata/57630df805fea67b290009a3/train/javascript)
 
+## Resources for this problem
+
+[Permutations of The Given String](https://www.interviewbit.com/blog/permutations-of-the-given-string/)
+
 ### Problem
 
 In this Kata you will have to permutate through a string of lowercase letters, each permutation will start at `a` and you must calculate how many iterations it takes to reach the current permutation.
@@ -429,4 +433,49 @@ result: 27
 
 input: 'abb'
 result: 28
+```
+
+## What is a permutation?
+
+A permutation is an ordered arrangement of objects. For example, `3124` is one possible permutation of the digits `1`, `2`, `3` and `4`. If all of the permutations are listed numerically or alphabetically, we call it lexicographic order. The lexicographic permutations of `0`, `1` and `2` are:
+
+```js
+const permArr = [012, 021, 102, 120, 201, 210];
+```
+
+## Backtracking Approach
+
+A `backtracking` approach is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons each partial candidate (`backtracks`) as soon as it determines that the candidate cannot possibly be completed to a valid solution.
+
+## What are `constraint satisfaction problems`?
+
+A `constraint satisfaction problem` (CSP) is a problem in which a set of objects must be assigned to satisfy a number of constraints or limitations. CSPs are important in artificial intelligence and operations research.
+
+## What are `incrementally builds candidates`?
+
+An `incremental` algorithm is an algorithm that builds a solution incrementally, in stages, rather than all at once. An incremental algorithm is often used when the solution is too large to be built all at once.
+
+## What are `partial candidates`?
+
+A `partial candidate` is a candidate that is not yet complete. It is a candidate that is not yet a solution.
+
+## What are `factorials and permutations`?
+
+A `factorial` is the product of all positive integers less than or equal to n. For example, `5! = 5 * 4 * 3 * 2 * 1 = 120`.
+
+A `permutation` is an arrangement of objects in a particular order. For example, `3124` is one possible permutation of the digits `1`, `2`, `3` and `4`.
+
+## Let's write some Pseudocode
+
+```js
+const permutationPosition(string){
+
+  // initialize a variable to keep track of the index of the current permutation
+  // initialize another variable that will keep track of the multiplier
+
+  // iterate through the `string` starting from the last character
+
+
+};
+
 ```
