@@ -27,3 +27,5 @@ As I begin this journey again, I will set some goals for myself, something that 
 15. Open Source Contribution
 16. Networking
 17. Personal Projects
+
+Today, I decided to focus on the fundamentals of algorithms. I believe that it is my weakest skill as a software engineer. While I can come up with solutions quickly when I write code, I often find myself asking why I solved a problem in a particular way after completing the task. I believe that with a solid foundation in algorithms, I can finally stop second-guessing myself and have confidence in the solutions I provide.
