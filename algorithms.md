@@ -111,7 +111,7 @@ One data structure that I'm familiar with is an array.
 
 ### 1.1-4
 
-How are the shortest-path and traveling-salesman problems given above similar? How are they different?
+How are the "shortest-path" and "traveling-salesman" problems given above similar? How are they different?
 
 ### 1.1-5
 
@@ -124,4 +124,4 @@ Come up with a real-world problem in which only the best solution will do. Then 
 We should always consider to implement a solution to be within the bounds of good engineering practice.
 "An implementation should be well designed and documented."
 
-Algorithms that are efficient in terms of time or space will help use resources like computing time and space in memory more wisely.
+Algorithms that are efficient in terms of time or space will help use resources like computing time and space in memory more wisely. They are fundamental tools in problem-solving, akin to tools and technologies used in other fields of engineering and science.
