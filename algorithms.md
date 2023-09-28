@@ -125,3 +125,9 @@ We should always consider to implement a solution to be within the bounds of goo
 "An implementation should be well designed and documented."
 
 Algorithms that are efficient in terms of time or space will help use resources like computing time and space in memory more wisely. They are fundamental tools in problem-solving, akin to tools and technologies used in other fields of engineering and science.
+
+### Efficiency
+
+Insertion sort and merge sort are sorting algorithms, used to organize data. However, their efficiency can vary significantly from one another. This efficiency gap can be much more pronounced than the performance differences influenced by the specific hardware or software in use.
+
+### Insertion Sort
