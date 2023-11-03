@@ -131,3 +131,15 @@ Algorithms that are efficient in terms of time or space will help use resources 
 Insertion sort and merge sort are sorting algorithms, used to organize data. However, their efficiency can vary significantly from one another. This efficiency gap can be much more pronounced than the performance differences influenced by the specific hardware or software in use.
 
 ### Insertion Sort
+
+Insertion sort is a simple sorting algorithm that is commonly used in computer science and software engineering to arrange a list or array of elements into a specific order, often in ascending order. It's called "insertion" sort because it works by repeatedly taking an element from the unsorted part of the list and inserting it into its correct possition in the sorted part of the list.
+
+1. Initialization:
+   The first element in the list is considered sorted since a single element is already sorted by default. So, we start with the second element [ index 1 ] as our current element.
+
+2. Comparison and Insertion:
+   For each subsequent element, we compare it with the elements in the sorted part of the lsit [ the left side ].
+
+3. Shifting:
+4. Insertion:
+5. Repeat:
