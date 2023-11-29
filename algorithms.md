@@ -141,5 +141,10 @@ Insertion sort is a simple sorting algorithm that is commonly used in computer s
    For each subsequent element, we compare it with the elements in the sorted part of the lsit [ the left side ].
 
 3. Shifting:
+   If the current element is smaller than the elements in the sorted part, we shift the elements from the sorted part to the right to make space for the current element. The shifting is done to ensure that the current element is inserted in the correct position while maintaining the order of the sorted part.
+
 4. Insertion:
+   Once we have created the necessary space by shifting, we insert the current element into its correct position withing the sorted part. This insertion is typically done by comapring the current element with the elements in the sorted part from right to left until we find its correct position. When the correct position is found, we place the current element in that position.
+
 5. Repeat:
+   Steps 2 to 4 are repeated for each subsquent element in the unsorted part of the list until all elements are processed.
