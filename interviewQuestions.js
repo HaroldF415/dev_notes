@@ -139,6 +139,7 @@ function twoSumUnorderedArray(nums, target) {
   return [];
 }
 
+// Using a two-pointer approach as instructed in class
 function twoSumOrderedArray(nums, target) {
   let left = 0;
   let right = nums.length - 1;
@@ -179,15 +180,15 @@ function originalTwoSumSolution(nums, target) {
   return [];
 }
 
-console.log("-----------------------------------------------------");
-console.log("Two Sum - Unordered Array");
-console.log(twoSumUnorderedArray([1, 5, 3, 2, 5], 5)); // [2,3]
-console.log("\n");
-console.log("Two Sum - Ordered Array");
-console.log(twoSumOrderedArray([1, 2, 3, 4, 5], 7)); // [1,4]
-console.log("\n");
-console.log("Original Two Sum Solution - Unordered Array");
-console.log(originalTwoSumSolution([1, 5, 3, 2, 5], 5)); // [2,3]
+// console.log("-----------------------------------------------------");
+// console.log("Two Sum - Unordered Array");
+// console.log(twoSumUnorderedArray([1, 5, 3, 2, 5], 5)); // [2,3]
+// console.log("\n");
+// console.log("Two Sum - Ordered Array");
+// console.log(twoSumOrderedArray([1, 2, 3, 4, 5], 7)); // [1,4]
+// console.log("\n");
+// console.log("Original Two Sum Solution - Unordered Array");
+// console.log(originalTwoSumSolution([1, 5, 3, 2, 5], 5)); // [2,3]
 
 /**
  * Problem: Find Target Indices After Sorting Array
