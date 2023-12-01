@@ -122,29 +122,24 @@
  *
  */
 
-function twoSum(nums, target) {
-  const numIndices = {};
+function twoSumUnorderedArray(nums, target) {
+  const numIndices = new Map();
 
+  // Iterate over the array store values in map with their corresponding index
   for (let i = 0; i < nums.length; i++) {
-    let current = nums[i];
+    const complement = target - nums[i];
 
-    let complement = target - current;
-
-    // check if the `complement` value has been encountered before in the object
-    if (numIndices[complement] !== undefined) {
-      return [numIndices[complement], i];
+    if (numIndices.has(complement)) {
+      return [numIndices.get(complement), i];
     }
 
-    // check if the current value is not yet stored in the object
-    if (numIndices[current] === undefined) {
-      numIndices[current] = i;
-    }
+    numIndices.set(nums[i], i);
   }
-  return null;
+
+  return [];
 }
 
-// with a sorted array
-function twoSum2(nums, target) {
+function twoSumOrderedArray(nums, target) {
   let left = 0;
   let right = nums.length - 1;
 
@@ -161,7 +156,38 @@ function twoSum2(nums, target) {
   }
 }
 
-console.log(twoSum2([1, 2, 3, 4, 5], 5)); // [0,3]
+function originalTwoSumSolution(nums, target) {
+  // Initialize an empty object that will store the values of the nums array elements with their corresponding index.
+  const numIndices = {};
+
+  // Iterate through the nums array
+  for (let i = 0; i < nums.length; i++) {
+    let current = nums[i];
+
+    // initialize a varible and give it a value that will help us find the missing pair
+    let complement = target - current;
+
+    if (numIndices[complement] !== undefined) {
+      return [numIndices[complement], i];
+    }
+
+    if (numIndices[current] === undefined) {
+      numIndices[current] = i;
+    }
+  }
+
+  return [];
+}
+
+console.log("-----------------------------------------------------");
+console.log("Two Sum - Unordered Array");
+console.log(twoSumUnorderedArray([1, 5, 3, 2, 5], 5)); // [2,3]
+console.log("\n");
+console.log("Two Sum - Ordered Array");
+console.log(twoSumOrderedArray([1, 2, 3, 4, 5], 7)); // [1,4]
+console.log("\n");
+console.log("Original Two Sum Solution - Unordered Array");
+console.log(originalTwoSumSolution([1, 5, 3, 2, 5], 5)); // [2,3]
 
 /**
  * Problem: Find Target Indices After Sorting Array
