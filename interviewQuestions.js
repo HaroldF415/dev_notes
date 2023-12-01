@@ -319,7 +319,8 @@ function targetIndices(nums, target) {
  * We are making sure that every opening parenthesis has a matching closing parenthesis in the correct order in a given string.
  *
  * Pseudocode:
- * - Initialize an empty stack to keep trac
+ * - Initialize an empty stack to keep track of an opening parenthesis
+ * - Pop them out of the stack when a closing parenthesis is encountered
  *
  * Space and Time Complexity:
  *
@@ -333,7 +334,42 @@ function targetIndices(nums, target) {
  *
  */
 
-function validParenthesis(string) {}
+function validParenthesis(string) {
+  // Initialize an empty stack to keep track of `openers`
+  const openingStack = [];
+
+  // Define the valid pairs of openers and closers
+  const validPairs = {
+    "(": ")",
+    "{": "}",
+    "[": "]",
+  };
+
+  // Iterate through the string
+  for (let i = 0; i < string.length; i++) {
+    let currentChar = string[i];
+
+    // checking to see if the `currentChar` is a key inside the `validPairs` object this could be a possibleOpener
+    if (currentChar in validPairs) {
+      // Retrieve the possible corresponding closer from the stack
+      const possibleCloser = openingStack.pop();
+
+      // Check to see if the `possibleCloser` matches the corresponding opening key
+      if (validPairs[currentChar] !== possibleCloser) {
+        return false;
+      }
+    } else {
+      // If the possibleOpener is not found as a `key` in the validPairs object
+      // Then we can assume it's a closer. So we push it to the stack
+      openingStack.push(currentChar);
+    }
+  }
+
+  // The stack will be empty if we have properly matched all validPairs
+  return openingStack.length === 0;
+}
+
+console.log(validParenthesis("({[)]"));
 
 /**
  * Problem: First Element Occurring `k` Times in an Array
