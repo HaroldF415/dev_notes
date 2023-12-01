@@ -284,51 +284,101 @@ function targetIndices(nums, target) {
  *
  */
 
-function validParenthesis(string) {
-  
-  const 
-}
+function validParenthesis(string) {}
 
 /**
  * Problem: First Element Occurring `k` Times in an Array
  *
- * Problem Statement:
+ * Problem Statement: Given an array of `n` integers. The task is to find the first element that occurs `k` number
+ * of times. If no element occurs `k` times the print is `-1`. The distribution of integer elements could be in any range.
  *
  * Constraints and Ouput Requirements:
+ * - The array can contain both positive and negative integers.
+ * - The array can be of size up to 10^5.
+ * - The integers within the array can have a range from -10^9 to 10^9
+ * - The value of `k` will be a positive integer less than or equal to the size of the array.
+ * - The OUTPUT must be a single integer representing the first element that occurs `k` times
+ *   or `-1` if no element occurs `k` times.
  *
  * Goal:
+ * Find the first element that occurs `k` times in the given integer array or return `-1` if no such elements exists.
  *
  * Questions to ask before attempting to code:
+ * N/A
  *
  * What is the INPUT?
+ * - The input is an array of integers.
+ * - A positive integer `k`.
  *
  * What is the OUTPUT?
+ * - An integer representing the first element that occurs `k` times, or `-1` if no such element exists.
  *
  * Why does the INPUT lead to the OUTPUT?
+ * - The algorithm aims to traverse the array, keeping track of the count and returning the first element
+ *   that meets the `k` occurrence requirement or `-1` if none satisfy the condition.
  *
  * More Examples:
  *
  * Example 1:
+ * - INPUT: [3, 1, 2, 2, 1, 2, 3], k = 2
+ * - OUTPUT: 2
  *
  * Example 2:
+ * - INPUT: [4, 5, 1, 2, 2, 3, 3], k = 3
+ * - OUTPUT: -1
  *
  * Put into your own words:
+ * - Given an integer array and a target count, return the first element that meets the requirement
+ * - If no element that occurs `k` times is found then return `-1`.
  *
  * Pseudocode:
+ * - Initialize a Map which will be used to store the element inside the array with its corresponding count
+ * - Iterate through the array, updating the count for each element.
+ * - Iterate through the array once more, returning the first element that meets the `k` requirement.
+ * - If no element exists within the array, return `-1`
  *
- * Space and Time Complexity:
+ * Space and Time Complexity
  *
  * Space Complexity:
- *
- * Justification:
+ * - O(n) where `n` is the size of the input array.
+ * - This is due to the storage needed for the Map to track elements in the array.
  *
  * Time Complexity:
- *
- * Justification:
+ * - O(n) where `n` is the size of the input array as well.
+ * - The algorithm traverses the integer array once to keep track of the elements and its count,
+ *   And once more to find the element that meets the `k` times requirement.
  *
  */
 
-function elementOccurrence(nums, target) {}
+function firstElementOccurrence(nums, target) {
+  // Create a map that will keep count of the indices
+  const numIndices = new Map();
+
+  // iterating through the array to keep track of the numbers and their occurrences
+  for (let i = 0; i < nums.length; i++) {
+    const current = nums[i];
+
+    if (!numIndices.has(current)) {
+      numIndices.set(current, { count: 1 });
+    } else {
+      const { count } = numIndices.get(current);
+      numIndices.set(current, { count: count + 1 });
+    }
+  }
+
+  // We loop through the array one more time to satisfy the FIRST occurring element `k` times.
+  for (const num of nums) {
+    if (numIndices.get(num).count === target) {
+      return num;
+    }
+  }
+  return -1;
+}
+
+// console.log("-----------------------------------------------------");
+// console.log("First Element Ocurring `k` times");
+// console.log(firstElementOccurrence([1, 3, 4, 3, 2, 4, 3, 4, 2, 1, 5, 2], 3)); // 3
+// console.log(firstElementOccurrence([1, 7, 4, 3, 4, 8, 7], 2)); // 7
 
 /**
  * Problem: Partition Even & Odd Values in an Array ( while preserving order )
