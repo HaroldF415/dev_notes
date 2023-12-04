@@ -354,7 +354,7 @@ function validParenthesis(string) {
       // Retrieve the possible corresponding closer from the stack
       const possibleCloser = openingStack.pop();
 
-      // Check to see if the `possibleCloser` matches the corresponding opening key
+      // Check to see if the `possibleCloser` matches the corresponding opening key value
       if (validPairs[currentChar] !== possibleCloser) {
         return false;
       }
@@ -369,7 +369,7 @@ function validParenthesis(string) {
   return openingStack.length === 0;
 }
 
-console.log(validParenthesis("({[)]"));
+console.log(checkIfVaild("({[)]"));
 
 /**
  * Problem: First Element Occurring `k` Times in an Array
