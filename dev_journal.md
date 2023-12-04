@@ -47,3 +47,34 @@ Let's start by finding out what is [HTMX](https://refine.dev/blog/what-is-htmx/)
 - HTMX is a modern JavaScript Library that allows us to have seamless client-server communication.
 - HTMX also simplifies the behavior of web pages by allowing them to update their content dynamically.
 - HTMX uses specific HTML attributes to define how elements on a particular webpage interact with the server.
+
+---
+
+## 12.04.23
+
+## LinkedIn Profile Update
+
+It's slowly starting to hit me that it's December, another year is coming to an end, another year that I have not achieved my goal to become a Software Engineer. At 34 years old, I've worked several odd jobs, most out of necessity to maintain financial stability for my family and myself. Right now, the job that I currently hold is that of an Amazon Warehouse Associate - Seasonal. A job that could end at a moment's notice. I mention this background info to help understand how I'm trying to balance myself in this world. My job at Amazon is very hands-on, so the only other thing I can do to improve myself while at work is to listen to podcasts or audiobooks. Now I'm taking a very relaxed take on this. I don't listen to only tech stuff but sometimes music, TV shows, or movies. I don't want to burn myself out with so much information about tech and ultimately get bored of it.
+
+One of the podcasts I listened to was from [CodeNewbie](https://open.spotify.com/episode/4QAvT1wPq6bkQ9tLM1PQjr?si=972ab40e37984a82), this particular episode talked about how some people rely heavily on LinkedIn to get started with a career in tech. So I'm taking upon myself to improve my LinkedIn account and make it shine brighter than before. At least that is my task for today.
+
+LinkedIn About Me:
+
+````
+At 34, I'm a seasoned software engineer driven by a lifelong curiosity for development. I began my journey to become a software engineer over a decade ago. To achieve this, I attended college and majored in Information Technology and Computer Science. However I did not manage to finish and get a degree in either. I've however received certificates from online bootcamps as a full-stack Web Developer, and I'm currently enrolled in Pursuit, pursuing the same goal.
+
+My fascination with technology/development began when I was young, exploring the inner workings of computers and finding joy in understanding how everything works around me. This curiosity, coupled with my passion for tech, led me to pursue the knowledge needed to become a Software Engineer. Over the years, I've focused on programming languages such as JavaScript [6+ yrs], Java[3+ yrs], and Python [2+ yrs]. I enjoy sitting down and reviewing algorithm designs, researching how it all works and finding out why one solution would be more efficient than the other.
+
+Enrolling in a bootcamp has shown me the power that peer coding holds; therefore, I understand and thrive in collaborative environments. They are key for continuous growth, not only for myself but others as well. Now, tech is not the only thing I'm about. I'm curious about a lot of things, and again, I love how everything in and outside this world works. Space is another guilty pleasure I have, how everything fits together in harmony or, in the case of a black hole, chaos. I'm constantly curious about how those events evolve.
+
+This path I have chosen is an indication of my tireless passion for innovation and my unwavering drive to embrace new challenges. I'm not just a person trying to become a Software Engineer; I'm an explorer, trying to find balance and improvement in my skill set to ultimately create inventive solutions to real-world problems.
+```
+````
+
+With the help of ChatGPT, I managed to come up with an About Me section that conveys what I am about. Although I used it for grammatical and spelling errors only, the AI changed multiple lines of my original text. This is a very curious issue that I wish to look into later on. As I am pressed for time at the moment, with work starting at 6 pm and the current time being 4:36 pm, I think I will look into that issue another day and blog about it. I believe what I'm doing here—blogging, researching, and taking things slow—is having the desired effect on me. I'm slowly feeling that there is balance here, not rushing things and enjoying the discovery of learning. After listening to many podcasts, I feel like I see a pattern from all the people being interviewed. They eventually burn out and lose that passion for what they went into tech for in the first place. I do not wish that to happen to me.
+
+In the previous blog post I started reading articles that I bookmarked and saved for later. The particular article I choose was a very lengthy one and I feel that I need more time to complete it. For the same reason I'm explaning the burn out situation I do not want to rush into finishing a blog and doing a mediocre job on it.
+
+> "Dreams without <i><strong>goals</strong></i> are just dreams. And ultimately they fuel <i><strong>dissappointment</strong></i>. On the road to <i><strong>achieving</strong></i> your dreams, you must apply <i><strong>discipline</strong></i>, but more importantly <i><strong>consistency</strong></i>. Without <i><strong>commitment</strong></i> you will never <i>start</i>, but without <i><strong>consistency</strong></i> you will never finish. - Denzel Washington
+
+The quote above plus other factors in my life are what are currently given me this drive to keep pursuing my goal to eventually become a Software Engineer, but also be ready to accept if it doesn't happen.
