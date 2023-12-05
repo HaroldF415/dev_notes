@@ -60,7 +60,7 @@ One of the podcasts I listened to was from [CodeNewbie](https://open.spotify.com
 
 LinkedIn About Me:
 
-````
+```
 At 34, I'm a seasoned software engineer driven by a lifelong curiosity for development. I began my journey to become a software engineer over a decade ago. To achieve this, I attended college and majored in Information Technology and Computer Science. However I did not manage to finish and get a degree in either. I've however received certificates from online bootcamps as a full-stack Web Developer, and I'm currently enrolled in Pursuit, pursuing the same goal.
 
 My fascination with technology/development began when I was young, exploring the inner workings of computers and finding joy in understanding how everything works around me. This curiosity, coupled with my passion for tech, led me to pursue the knowledge needed to become a Software Engineer. Over the years, I've focused on programming languages such as JavaScript [6+ yrs], Java[3+ yrs], and Python [2+ yrs]. I enjoy sitting down and reviewing algorithm designs, researching how it all works and finding out why one solution would be more efficient than the other.
@@ -68,8 +68,8 @@ My fascination with technology/development began when I was young, exploring the
 Enrolling in a bootcamp has shown me the power that peer coding holds; therefore, I understand and thrive in collaborative environments. They are key for continuous growth, not only for myself but others as well. Now, tech is not the only thing I'm about. I'm curious about a lot of things, and again, I love how everything in and outside this world works. Space is another guilty pleasure I have, how everything fits together in harmony or, in the case of a black hole, chaos. I'm constantly curious about how those events evolve.
 
 This path I have chosen is an indication of my tireless passion for innovation and my unwavering drive to embrace new challenges. I'm not just a person trying to become a Software Engineer; I'm an explorer, trying to find balance and improvement in my skill set to ultimately create inventive solutions to real-world problems.
+
 ```
-````
 
 With the help of ChatGPT, I managed to come up with an About Me section that conveys what I am about. Although I used it for grammatical and spelling errors only, the AI changed multiple lines of my original text. This is a very curious issue that I wish to look into later on. As I am pressed for time at the moment, with work starting at 6 pm and the current time being 4:36 pm, I think I will look into that issue another day and blog about it. I believe what I'm doing here—blogging, researching, and taking things slow—is having the desired effect on me. I'm slowly feeling that there is balance here, not rushing things and enjoying the discovery of learning. After listening to many podcasts, I feel like I see a pattern from all the people being interviewed. They eventually burn out and lose that passion for what they went into tech for in the first place. I do not wish that to happen to me.
 
@@ -78,3 +78,34 @@ In the previous blog post I started reading articles that I bookmarked and saved
 > "Dreams without <i><strong>goals</strong></i> are just dreams. And ultimately they fuel <i><strong>dissappointment</strong></i>. On the road to <i><strong>achieving</strong></i> your dreams, you must apply <i><strong>discipline</strong></i>, but more importantly <i><strong>consistency</strong></i>. Without <i><strong>commitment</strong></i> you will never <i>start</i>, but without <i><strong>consistency</strong></i> you will never finish. - Denzel Washington
 
 The quote above plus other factors in my life are what are currently given me this drive to keep pursuing my goal to eventually become a Software Engineer, but also be ready to accept if it doesn't happen.
+
+---
+
+## 12.05.23
+
+After another long night shift at Amazon Fresh Warehouse, I didn't have much time for my studies. It's almost 5 PM, and I've got less than an hour to make progress. Let's review: I've learned a lot about algorithms, programming languages, and data structures, but I haven't actually used these skills yet. I think the next step to continuing my journey to become a Software Engineer is to start building. Working on my portfolio seems like the best way to get started. I not only need to show on paper what I know, but I need to actually build with what I know. A good portfolio should prove to employers that I've got the skills that they are looking for.
+
+Programming Language:
+
+- HTML/CSS
+- JavaScript/Typescript
+
+Potential Frontend Frameworks/Libraries
+
+- React.js
+- Next.js
+- Vite.js
+
+Version Control
+
+- Git
+
+Backend Technologies
+
+- TBA
+
+APIs
+
+- [NASA](https://api.nasa.gov/)
+
+For now this seems like a good start. I will look into how to design it and deploy it later. The one thing that I have always had difficulty with is planning things out. With this new approach of writting blogs or I think at this point they are journal entries as the file name suggests, I think I have a better grasp and clear sight of my goals. If anyone is reading this thank you for sticking with me until now. I would like to think that there is someone out there as curious as me and going into people's repo and reading what they have.
