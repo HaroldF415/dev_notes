@@ -109,3 +109,17 @@ APIs
 - [NASA](https://api.nasa.gov/)
 
 For now this seems like a good start. I will look into how to design it and deploy it later. The one thing that I have always had difficulty with is planning things out. With this new approach of writting blogs or I think at this point they are journal entries as the file name suggests, I think I have a better grasp and clear sight of my goals. If anyone is reading this thank you for sticking with me until now. I would like to think that there is someone out there as curious as me and going into people's repo and reading what they have.
+
+---
+
+## 12.08.23
+
+### Uber Fellowship Program Rejection
+
+Today, I received the news that the Uber Fellowship Program I interviewed for did not extend me an offer. This news hit me hard. It didn't hit me as hard as the rejection from the Google Fellowship Program, but it still hurt. As I'm writing this, I'm still trying to figure out how I feel about it. It's yet another rejection I must endure. You would think that by now I would have been accustomed to them, but I'm not. Maybe it's the feeling of desperation to start a career in Software Development before I'm in my 40s that's starting to creep into my psyche. Next year, I will be 35 years old, and I have yet to start a career in something I'm passionate about. My previous blogs talk about persistence, taking things slow, and accepting the things I cannot change, but with yet another rejection, the doubt in my mind resurfaces, and I wonder if I'm just in an uphill battle, one that I will certainly lose.
+
+My body is tired from the physical labor I must endure at the Amazon Warehouse job I currently have. This I must do to provide for my family else we will certainly be in financial trouble once again. My mind is tired from all the things that I have to think about: Am I being a good father? Am I spending enough time with my kids? If I study on the days that I'm off, will that cause a rift in the relationship that I have with my kids? All these questions are the same when it comes to my wife. Although she has been there since day one and supports me in my efforts to pursue this goal of mine, I wonder if she is tired of it too. There are some days that it just gets to be too much, too much to handle.
+
+I have the support. I have the resources to do what I must, which is study to eventually get a job in Software Engineering and keep working at Amazon to provide some financial stability for my family. I'm working on finding a balance between these and other parts of my life: father, husband, brother, and son. All these responsibilities, and I feel like I could explode at any minute, but I can't. I just can't lose control else everything that I've worked hard to build until now will come crashing down.
+
+I need to believe that these journal entries are working and it's not just some gimmick that people say on podcasts to keep people busy. I have to believe that in the end, looking into myself and trying to figure out what I'm doing wrong and fixing it will eventually pay off. I will end this post with that, and I will try to restructure myself over the weekend.
