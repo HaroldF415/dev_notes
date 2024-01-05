@@ -123,3 +123,11 @@ My body is tired from the physical labor I must endure at the Amazon Warehouse j
 I have the support. I have the resources to do what I must, which is study to eventually get a job in Software Engineering and keep working at Amazon to provide some financial stability for my family. I'm working on finding a balance between these and other parts of my life: father, husband, brother, and son. All these responsibilities, and I feel like I could explode at any minute, but I can't. I just can't lose control else everything that I've worked hard to build until now will come crashing down.
 
 I need to believe that these journal entries are working and it's not just some gimmick that people say on podcasts to keep people busy. I have to believe that in the end, looking into myself and trying to figure out what I'm doing wrong and fixing it will eventually pay off. I will end this post with that, and I will try to restructure myself over the weekend.
+
+---
+
+## 01.05.24
+
+### 11:20am
+
+It's been almost a month since my last entry. A lot has happened, and I can't stop thinking that I haven't kept up with my commitment to writing an entry per day. On the one hand, I could just pass on the blame to my other responsibilities, but I've grown tired of that, and I will just say I didn't have time to make blog entries. The rejection from the Uber Fellowship program has stunted my learning. I've grown somewhat indifferent about landing a Software Engineering job at this stage. It's making me reassess my options in life right now. To be honest to myself and to this blog I've become extremely depressed. At the expense of looking weak I've made the decision to seek help for my depression. It got to the point that I did not want to do anything. Not help around the house, not care for myself and have no interest in the people around me. That was a problem, because I have a family. My father tells me often that "There's a solution for everything in life, except death". This was before I admitted to myself that I was depressed. Somehow I think he knew that I was going through something and I want to tell him how much I appreciate him for noticing without actually bringing up the subject of depression.
